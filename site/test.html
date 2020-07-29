@@ -3,8 +3,88 @@
 <head>
 	<meta charset="utf-8">
 	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+		*{
+			border-sizing:border-box;
+		}
+		p {
+			color: blue;
+		}
+		h1 {
+			color: red;
+			font: 40px
+		}
+		.s {
+			color: green;
+			font: 20px
+		}
+		article > p{
+			color: blue
+		}
+		li {
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: red;
+			color: white;
+			display: block;
+			width: 100px;
+
+		}
+		a:hover, a:active{
+			background-color: blue;
+			color: black;
+		}
+		.box{
+			width: 1000px;
+			height: 500px;
+			border: 10px solid black;
+			background-image: url("https://cdn.havecamerawilltravel.com/places/files/2019/01/paris-eiffel-tower-at-dusk-panorama-06-copyright-havecamerawilltravel-com-1068x395.jpg");
+			background-repeat: no-repeat;  
+		}
+		div{
+			background-color: blue
+		}
+		p{
+			width: 50px;
+			height: 50px;
+
+		}
+		#p1{
+			background-color: black;
+		}
+		#p2{ 
+			background-color: red;
+		}
+
+
+	</style>
 </head>
 <body>
-<div>wtf</div>
+<h1>my top shows</h1>
+<ol class="s">
+	<li>breaking bad <a href="https://www.coursera.org/learn/python-machine-learning/notebook/oxndk/assignment-1" target="_blank" title="c2">click</a></li>
+	<li>GOT <a href="https://www.coursera.org/learn/introclassicalmusic/lecture/W2VfF/3-1-what-is-melody" title="coursera" target="_blank"> whatever</a></li>
+	<li>nothig &nbsp;else &copy;
+		<ul>
+			<li>x</li>
+			<li>y</li>
+			<li>z</li>
+		</ul>
+	</li>
+</ol>
+<p><img src="https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/05/27/Pictures/chetwode-santosh-hindustan-dehradun-india-dehradun-building_e2a928cc-9fd9-11ea-88a1-96031f43cf2a.jpg"width = "100" height="100"><br> whatever happens happens for a reason </p>
+<article>
+	<p>
+		this should be blue
+	</p>
+</article>
+<div>
+	<p id="p1">	
+	</p>
+	<p id="p2 "></p>
+</div>
 </body>
 </html>
